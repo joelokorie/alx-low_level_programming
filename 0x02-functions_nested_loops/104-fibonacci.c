@@ -18,7 +18,7 @@ int main(void)
 	{
 		sum = fib1 + fib2;
 		printf("%lu, ", sum);
-		
+
 		fib1 = fib2;
 		fib2 = sum;
 																		}
@@ -42,7 +42,7 @@ int main(void)
 
 			if (count != 98)
 				printf(", ");
-				
+
 			fib1_half1 = fib2_half1;
 			fib1_half2 = fib2_half2;
 			fib2_half1 = half1;

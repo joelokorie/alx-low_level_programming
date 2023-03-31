@@ -23,5 +23,5 @@ char *_strcat(char *dest, char *src)
 	for (i = 0; i <= srclength; i++)
 		dest[destlength + 1] = src[i];
 
-	return(dest);
+	return (dest);
 }
